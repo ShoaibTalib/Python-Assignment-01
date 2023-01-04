@@ -1,0 +1,16 @@
+#Write a program that gradually reverses the given string. Read the string from a keyboard using input() function. Suppose if user enters Abid then your program prints:
+#bidA
+#idAb
+#dAbi
+#Abid
+
+#Submission: Create Account on github.com and submit assignments over there
+
+Name=input("\nEnter the String !!! ");
+print("\nThe name is ",Name);
+for i in range(len(Name)):
+    Name=Name[1:]+Name[0];
+    print(Name)
+    
+    
+
